@@ -1,2 +1,20 @@
 hey its akshata
 devloperrr
+EPIC:
+-----
+As a Student I want Web Application so that I can complete my course at any time
+As a trainer I want web application  so that I can manage my courses
+As a Visitor I want udemy Web Application so that I can explore courses without registration
+
+User Story:
+-----------
+As a visitor I want search feature on Website  so that I can search any interested course
+As a Visitor I want sign-up feature  on website so that I can register my self
+As a Visitor I want sign-in option so that I can sign-in when ever required
+As a Visitor I want filter option so that I filter out some not interested courses
+
+
+1.Create a Sprint 
+2.Add User Stories to Sprint
+3.Click on Sprint
+
