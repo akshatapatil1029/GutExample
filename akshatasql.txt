@@ -1,0 +1,24 @@
+Q1.PROGRAMMER
+create table programmer(empno number(5) primary key,projid varchar(5) not null,lastname varchar2(30) not null,firstname varchar2(30) not null,hiredate date,language varchar2(15) not null,taskno number(2),privelege varchar2(25));
+describe programmer;
+
+Q2.create table dept
+create table department(deptno number(5) primary key,dname varchar2(20) not null,loc varchar2(20) not null);
+insert into department values(20,'MARKETING','CHICAGO');
+select * from department;
+
+Q3.employee
+create table employee(EmpNo number(5) primary key,Ename varchar2(20) not null,Job varchar2(20),Sal int,hiredate date,Deptno int);
+insert into employee values(7001,'JAMES','CLERK',3000,6/5/2005,10);
+select * from employee;
+
+Q4. Grade
+create table grade(GradeNo number(2) primary key,Hi_sal int not null,Lo_sal int not null);
+insert into grade values(1,2000,500);
+select * employee;
+
+create table tab(empno number(5) primary key,Ename varchar2(20) not null,job varchar2(20) not null,MGR int,Deptno int);
+
+7 12 16 23subquries
+select e.empno,e.ename,e.job,e.deptno,d.dname from employees e join dept2 d on( e.deptno = d.deptno)
+
